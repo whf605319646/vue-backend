@@ -6,13 +6,13 @@
             <app-toolbar>
                 <el-button type="primary" @click="getChartData">刷新数据</el-button>
             </app-toolbar>
-            <chart1 :chartData="chartData"></chart1>
+            <line-chart :chartData="chartData"></line-chart>
         </app-section>
     </div>
 </template>
 
 <script>
-import Chart1 from './chart1'
+import LineChart from './LineChart'
 
 export default {
     name: 'exampleChart',
@@ -38,6 +38,6 @@ export default {
             })
         }
     },
-    components: {Chart1}
+    components: {LineChart}
 }
 </script>

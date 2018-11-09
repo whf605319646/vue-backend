@@ -1,16 +1,16 @@
 <template>
     <div class="sys-page">
         <div id="container">
-            <map1></map1>
+            <e-map></e-map>
         </div>
     </div>
 </template>
 
 <script>
-import Map1 from './map1'
+import EMap from './EMap'
 export default {
     name: 'exampleMap',
-    components: {Map1}
+    components: {EMap}
 }
 </script>
 
